@@ -21,7 +21,7 @@ class Atributos_do_Veiculo{
 public void relatório(string marca, int ano, double valor, int km){
   Console.WriteLine("Marca Escolhida> {0} /n Ano >> {1} /n Valor >> {2} Reais /n Kilometragem >> {3}", marca, ano, valor, km);}
 
-private double atualizar_valor(double novo_valor, double valor_anterior,int ano_atual,int ano_fabricação){
+private double atualizar_valor(int valor, int ano){
  novo_valor=valor_anterior-(ano_atual-ano_fabricação)*2.05;
 }
 }
